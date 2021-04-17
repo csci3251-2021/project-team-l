@@ -1,6 +1,7 @@
 theme: jekyll-theme-midnight
+exclude: ['README.md']
+premalink: pretty
+
 collections:
   stu:
-    output: true
-    
-collections_dir: project-team-l/_stu
+    user: true
