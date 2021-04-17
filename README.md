@@ -1,6 +1,8 @@
-# This team hasn't started yet...
+# Constributors
 
-Check back later!
-
-**Please read `tasks.md` to start your work.**
+{% for team_member in project-team-l._stu %}
+  <img src="{{team_member.image}}">
+  <a href="https://github.com/{{team_member.user}}"><h2{{team_member.user}}<h2/a> <br/>
+  <p> {{team_member.content | markdownify }} </p>
+ {% endfor %}
  
