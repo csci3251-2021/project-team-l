@@ -1,6 +1,5 @@
-# This team hasn't started yet...
+# Constributors
 
-Check back later!
-
-**Please read `tasks.md` to start your work.**
- 
+{% for stu in project-team-l._stu %}
+ <h2> @{{stu.user}}</h2>
+{$ endfor %}
