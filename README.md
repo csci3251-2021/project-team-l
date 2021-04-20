@@ -1,7 +1,7 @@
 # Introduction
 The following 8 tasks should be completed by **ONE student each** in the **CORRECT ORDER**!!
 
-1. Create [all issues](https://github.com/csci3251-2021/project-team-l/issues) for group members
+1. Create **[all issues](https://github.com/csci3251-2021/project-team-l/issues)** for group members
 
 2. Create **[project board](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards)** by using **Basic Kanban template**
    - Set up **automations** for tasks progress
