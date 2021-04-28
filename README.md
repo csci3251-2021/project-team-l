@@ -19,4 +19,13 @@ The following 8 tasks should be completed by **ONE student each** in the **CORRE
 
 8. Add the link to promote project-team-l repo
 # Code
+
 # Contributors
+{% for stu in site.stu %}    
+- ![Image of Contributors]({{stu.image}}){: height="50px" width="50px"}
+<a href="http://github.com/{{stu.user}}">
+@{{stu.user}}
+</a>
+({{ stu.name }})
+  - {{ stu.content | markdownify }}
+{% endfor %}
