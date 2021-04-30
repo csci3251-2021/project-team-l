@@ -19,6 +19,8 @@ The following 8 tasks should be completed by **ONE student each** in the **CORRE
 
 8. Add the link to promote project-team-l repo
 # Code
+{% highlight c %} {% include_relative code.c %} {% endhighlight %}
+![example workflow](https://github.com/csci3251-2021/project-team-l/actions/workflows/main.yml/badge.svg)
 
 # Contributors
 {% for stu in site.stu %}    
