@@ -21,6 +21,15 @@ The following 8 tasks should be completed by **ONE student each** in the **CORRE
 # Code
 {% highlight c %} {% include_relative code.c %} {% endhighlight %}
 ![example workflow](https://github.com/csci3251-2021/project-team-l/actions/workflows/main.yml/badge.svg)
+```c
+// Your C code here
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
+}
+```
+(Task 7: 2nd Update)
 
 # Contributors
 {% for stu in site.stu %}    
