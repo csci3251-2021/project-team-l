@@ -31,3 +31,5 @@ The following 8 tasks should be completed by **ONE student each** in the **CORRE
 ({{ stu.name }})
   - {{ stu.content | markdownify }}
 {% endfor %}
+
+Last updated: {{ site.time }}
